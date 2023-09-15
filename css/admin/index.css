@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+body {
+  /* background: linear-gradient(45deg, #fc4668, #3f5efb);
+   */
+  background: url("../../img/team-4864035_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+}
+
+form {
+  background-color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+/* Message error */
+.error-message {
+  background-color: #f03e3e;
+  padding: 12px 24px;
+  border-radius: 23px;
+  color: white;
+}
